@@ -15,7 +15,7 @@ document.querySelector("#btnCheck").addEventListener("click", function () {
     } else {
       document.querySelector("#startGuess").textContent = "❌ Game Over";
       document.querySelector("#actualScore").textContent = 0;
-      document.querySelector("body").style.backgroundColor = "#F35B49";
+      document.querySelector("body").style.backgroundColor = "#EC8073";
     }
   } else if (guess < MyNumber) {
     if (score > 1) {
@@ -25,12 +25,12 @@ document.querySelector("#btnCheck").addEventListener("click", function () {
     } else {
       document.querySelector("#startGuess").textContent = "❌ Game Over";
       document.querySelector("#actualScore").textContent = 0;
-      document.querySelector("body").style.backgroundColor = "#F35B49";
+      document.querySelector("body").style.backgroundColor = "#EC8073";
     }
   } else if (guess === MyNumber) {
     document.querySelector("#startGuess").textContent = "🥂Correct Number";
     document.querySelector("#box").textContent = MyNumber;
-    document.querySelector("body").style.backgroundColor = "#42F36C";
+    document.querySelector("body").style.backgroundColor = "#C6EE83";
     if (score > HS) {
       HS = score;
       document.querySelector("#actualHighScore").textContent = HS;
