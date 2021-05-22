@@ -1,0 +1,278 @@
+body {
+  background-color: lightgray;
+  overflow-x: hidden;
+}
+
+#btnPlayAgain {
+  height: 80px;
+
+  width: 200px;
+
+  position: absolute;
+
+  left: 20px;
+
+  top: 20px;
+
+  font-size: 200%;
+
+  font-family: "Anton", sans-serif;
+
+  background-color: rgb(1, 1, 12);
+
+  color: mintcream;
+}
+
+#inst {
+  text-align: right;
+
+  font-size: 200%;
+
+  font-family: "Anton", sans-serif;
+  color: rgb(1, 1, 12);
+
+  margin-right: 20px;
+}
+
+#horizontalLine {
+  height: 20px;
+
+  width: 1600px;
+
+  background-color: rgb(1, 1, 12);
+
+  position: absolute;
+
+  left: -10px;
+
+  top: 270px;
+}
+
+#guess {
+  font-size: 400%;
+
+  font-family: "Anton", sans-serif;
+
+  color: rgb(1, 1, 12);
+
+  position: absolute;
+
+  font-weight: 400;
+
+  top: 30px;
+
+  left: 465px;
+}
+
+#box {
+  font-family: "Anton", sans-serif;
+
+  font-size: 700%;
+
+  color: mintcream;
+
+  padding-left: 58px;
+
+  padding-top: -67px;
+}
+#outerBox {
+  height: 150px;
+
+  width: 170px;
+
+  background-color: rgb(1, 1, 12);
+  position: absolute;
+
+  left: 640px;
+
+  top: 200px;
+}
+
+#inputBox {
+  height: 90px;
+
+  width: 230px;
+
+  position: absolute;
+
+  left: 220px;
+
+  top: 400px;
+
+  font-size: 200%;
+  font-weight: bold;
+
+  background-color: lightgray;
+
+  color: rgb(1, 1, 12);
+
+  font-family: "Anton" sans-serif;
+  text-align: center;
+}
+#btnCheck {
+  height: 80px;
+
+  width: 200px;
+
+  position: absolute;
+
+  left: 239px;
+
+  top: 510px;
+
+  font-size: 200%;
+
+  background-color: rgb(1, 1, 12);
+
+  color: mintcream;
+
+  font-family: "Anton", sans-serif;
+}
+
+#startGuess {
+  text-align: right;
+
+  font-size: 200%;
+
+  font-family: "Anton", sans-serif;
+  color: midnightblue;
+
+  position: absolute;
+
+  top: 355px;
+
+  left: 800px;
+}
+#score {
+  text-align: right;
+
+  font-size: 200%;
+
+  font-family: "Anton", sans-serif;
+
+  color: rgb(1, 1, 12);
+
+  position: absolute;
+
+  top: 450px;
+
+  left: 800px;
+}
+
+#highScore {
+  text-align: right;
+  font-size: 200%;
+  font-family: "Anton", sans-serif;
+  color: rgb(1, 1, 12);
+
+  position: absolute;
+  top: 510px;
+  left: 800px;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+  #btnPlayAgain {
+    height: 60px;
+    width: 90px;
+    font-size: 100%;
+  }
+
+  #inst {
+    font-size: 100%;
+    margin-right: 27px;
+    margin-top: 35px;
+  }
+
+  #horizontalLine {
+    height: 10px;
+    top: 420px;
+    width: 400px;
+  }
+
+  #outerBox {
+    height: 140px;
+
+    width: 150px;
+
+    position: absolute;
+
+    left: 110px;
+    top: 350px;
+  }
+
+  #box {
+    font-family: "Anton", sans-serif;
+
+    font-size: 500%;
+
+    color: mintcream;
+  }
+
+  #guess {
+    font-size: 300%;
+
+    font-family: "Anton", sans-serif;
+
+    color: rgb(1, 1, 12);
+
+    font-weight: 500;
+
+    left: 20px;
+    top: 130px;
+  }
+
+  #inputBox {
+    height: 110px;
+
+    width: 130px;
+
+    left: 20px;
+
+    top: 620px;
+
+    font-size: 190%;
+    font-weight: bold;
+  }
+
+  #btnCheck {
+    height: 60px;
+
+    width: 120px;
+
+    left: 30px;
+
+    top: 780px;
+
+    font-size: 100%;
+  }
+
+  #startGuess {
+    text-align: right;
+
+    font-size: 130%;
+
+    top: 591px;
+
+    left: 210px;
+  }
+
+  #score {
+    text-align: right;
+
+    font-size: 155%;
+
+    top: 657px;
+
+    left: 210px;
+  }
+
+  #highScore {
+    text-align: right;
+    font-size: 155%;
+
+    top: 720px;
+    left: 210px;
+  }
+}
